@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.friedliver.liftanything" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LIFTANYTHING</name>
+    <description>
+      A social gym app for you and your friends.
+    </description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+      Your Mom
+    </author>
+    <content src="https://liftanything.friedliver.com" />
+    <allow-navigation href="https://liftanything.friedliver.com" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <icon density="ldpi" src="res/android/icon/drawable-ldpi-icon.png" background="res/android/icon/adaptive-background-ldpi.png" foreground="res/android/icon/adaptive-foreground-ldpi.png" />
+        <icon density="mdpi" src="res/android/icon/drawable-mdpi-icon.png" background="res/android/icon/adaptive-background-mdpi.png" foreground="res/android/icon/adaptive-foreground-mdpi.png" />
+        <icon density="hdpi" src="res/android/icon/drawable-hdpi-icon.png" background="res/android/icon/adaptive-background-hdpi.png" foreground="res/android/icon/adaptive-foreground-hdpi.png" />
+        <icon density="xhdpi" src="res/android/icon/drawable-xhdpi-icon.png" background="res/android/icon/adaptive-background-xhdpi.png" foreground="res/android/icon/adaptive-foreground-xhdpi.png" />
+        <icon density="xxhdpi" src="res/android/icon/drawable-xxhdpi-icon.png" background="res/android/icon/adaptive-background-xxhdpi.png" foreground="res/android/icon/adaptive-foreground-xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/android/icon/drawable-xxxhdpi-icon.png" background="res/android/icon/adaptive-background-xxxhdpi.png" foreground="res/android/icon/adaptive-foreground-xxxhdpi.png" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/splash/splash-animated.xml" />
+        <preference name="AndroidWindowSplashScreenAnimationDuration" value="1900" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#141b41" />
+    </platform>
+</widget>

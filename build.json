@@ -1,0 +1,11 @@
+{
+  "android": {
+    "release": {
+      "keystore": "release.keystore",
+      "alias": "liftanything",
+      "storePassword": "r3dr0se",
+      "password": "r3dr0se",
+      "packageType": "bundle"
+    }
+  }
+}

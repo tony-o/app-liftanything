@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+            <group
+                android:name="group_spin"
+                android:pivotX="50"
+                android:pivotY="50"
+                android:translateY="0">
+                <path
+                    android:name="path_l"
+                    android:fillColor="#FFFFFF"
+                    android:pathData="M 26.070312,60 V 25.078125 h 9.75 V 51.75 H 50.867187 V 60 Z" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group_spin">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="1000"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe android:fraction="0" android:value="0" />
+                    <keyframe android:fraction="0.5" android:value="-20" />
+                    <keyframe android:fraction="1.0" android:value="0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+</animated-vector>

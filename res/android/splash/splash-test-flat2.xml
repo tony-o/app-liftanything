@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+            <group
+                android:name="group_l"
+                android:pivotX="31"
+                android:pivotY="42.5"
+                android:translateY="0">
+                <path
+                    android:name="path_l"
+                    android:fillColor="#FFFFFF"
+                    android:pathData="M 26.070312,60 V 25.078125 h 9.75 V 51.75 H 50.867187 V 60 Z" />
+            </group>
+            <group
+                android:name="group_a"
+                android:pivotX="64"
+                android:pivotY="42.5"
+                android:translateY="0">
+                <path
+                    android:name="path_a"
+                    android:fillColor="#FFFFFF"
+                    android:pathData="m 45.660156,60 11.71875,-34.921875 h 13.125 L 82.339844,60 H 71.371094 L 67.457031,46.453125 q -1.265625,-4.40625 -2.460937,-8.695313 -1.195313,-4.3125 -2.320313,-8.953125 h 2.625 q -1.171875,4.640625 -2.390625,8.953125 -1.21875,4.289063 -2.53125,8.695313 L 56.324219,60 Z m 8.742188,-5.742188 v -7.5 h 19.21875 v 7.5 z" />
+            </group>
+            <group
+                android:name="group_bar"
+                android:pivotX="50"
+                android:pivotY="75.5"
+                android:scaleX="0">
+                <path
+                    android:name="path_bar"
+                    android:fillColor="#06D6A0"
+                    android:pathData="M 22,72 h 56 v 7 h -56 z" />
+            </group>
+        </vector>
+    </aapt:attr>
+
+    <target android:name="group_l">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="3600"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe android:fraction="0" android:value="0" />
+                    <keyframe android:fraction="0.08" android:value="-8" />
+                    <keyframe android:fraction="0.20" android:value="0" />
+                    <keyframe android:fraction="1.0" android:value="0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+
+    <target android:name="group_a">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="3600"
+                android:startOffset="180"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+                <propertyValuesHolder android:propertyName="translateY">
+                    <keyframe android:fraction="0" android:value="0" />
+                    <keyframe android:fraction="0.08" android:value="-8" />
+                    <keyframe android:fraction="0.20" android:value="0" />
+                    <keyframe android:fraction="1.0" android:value="0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+
+    <target android:name="group_bar">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="2200"
+                android:repeatCount="infinite"
+                android:repeatMode="restart"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="scaleX"
+                android:valueType="floatType">
+                <keyframe android:fraction="0" android:value="0" />
+                <keyframe android:fraction="0.35" android:value="1" />
+                <keyframe android:fraction="0.65" android:value="1" />
+                <keyframe android:fraction="1.0" android:value="0" />
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+</animated-vector>

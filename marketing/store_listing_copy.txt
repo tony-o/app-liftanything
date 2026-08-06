@@ -1,0 +1,30 @@
+SHORT DESCRIPTION (max 80 characters)
+--------------------------------------
+Log workouts, build routines, and cheer on your friends' progress.
+
+(68 characters)
+
+
+FULL DESCRIPTION (max 4000 characters)
+--------------------------------------
+LiftAnything is a social gym app built for lifters who want to track their training and stay motivated with the people they train alongside.
+
+TRACK EVERY SESSION, YOUR WAY
+Log any workout — planned or freeform. Skip exercises, do them out of order, or add extras mid-session. Every set tracks weight and reps (or duration, for time-based work like planks and cardio), and LiftAnything automatically shows you what you lifted last time on the same exercise so you always know what to beat.
+
+BUILD YOUR OWN WORKOUTS
+Save your go-to routines as reusable workout templates, organized by category — Push, Pull, Legs, Core, or whatever split you follow. Start a session from a template in one tap, or start empty and build it as you go.
+
+A REAL EXERCISE LIBRARY
+Pick from a built-in library of common lifts, or add your own custom exercises with custom categories. Mark cardio and holds as time-based so your stats stay accurate.
+
+STAY MOTIVATED TOGETHER
+See what your friends are lifting on the Motivation feed, drop kudos on a great session, and keep a running log of your own history on your personal timeline — total volume and session counts included, today and for the week.
+
+MADE FOR HOW YOU ACTUALLY TRAIN
+- Imperial or metric units, your choice
+- Alphabetical or most-recent sort for your workouts
+- Dark mode
+- No fluff, no ads interrupting your workout — just you, your lifts, and your people
+
+Whether you're chasing a new PR or just trying to keep showing up, LiftAnything keeps your training organized and your friends in the loop.
