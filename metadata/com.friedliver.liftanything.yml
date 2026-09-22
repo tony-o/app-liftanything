@@ -1,0 +1,43 @@
+Categories:
+  - Workout
+  - Social Network
+License: Apache-2.0
+AuthorName: tony-o
+AuthorEmail: tony.odell+fdroid@live.com
+WebSite: https://liftanything.friedliver.com
+SourceCode: https://github.com/tony-o/app-liftanything
+IssueTracker: https://github.com/tony-o/app-liftanything/issues
+
+AutoName: LIFTANYTHING
+Summary: Social gym and weight lifting tracker
+Description: |-
+  LIFTANYTHING is a social gym and weight lifting app for you and your
+  friends.
+
+RepoType: git
+Repo: https://github.com/tony-o/app-liftanything.git
+
+AntiFeatures:
+  - NonFreeNet
+
+Builds:
+  - versionName: '1.0.1'
+    versionCode: 10001
+    commit: f63dedb796bbcbbd2ec89f2c1cf9dc5d98c81355
+    sudo:
+      - apt-get update
+      - apt-get install -y openjdk-17-jdk-headless npm
+      - update-java-alternatives --set java-1.17.0-openjdk-amd64
+      - npm install -g npm@10
+      - npm install -g cordova@12.0.0
+    output: platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
+    prebuild:
+      - sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+      - npm ci
+      - cordova platform add android
+    build: cordova build android --release -- --packageType=apk
+
+AutoUpdateMode: None
+UpdateCheckMode: Static
+CurrentVersion: '1.0.1'
+CurrentVersionCode: 10001
