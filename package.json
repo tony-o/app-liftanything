@@ -1,16 +1,17 @@
 {
-  "name": "org.apache.cordova.hellocordova",
+  "name": "com.friedliver.liftanything",
   "displayName": "LIFTANYTHING",
   "version": "1.0.1",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "A social gym and weight lifting app for you and your friends.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cordova build androind --release"
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "LIFTANYTHING",
+  "author": "tony-o",
   "license": "Apache-2.0",
   "cordova": {
     "platforms": [

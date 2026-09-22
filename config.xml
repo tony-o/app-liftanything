@@ -2,15 +2,13 @@
 <widget id="com.friedliver.liftanything" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>LIFTANYTHING</name>
     <description>
-      A social gym app for you and your friends.
+      A social gym and weight lifting app for you and your friends.
     </description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-      Your Mom
+    <author email="tony.odell+fdroid@live.com" href="https://liftanything.friedliver.com">
+      tony-o
     </author>
-    <content src="https://liftanything.friedliver.com" />
-    <allow-navigation href="https://liftanything.friedliver.com" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
+    <allow-navigation href="https://liftanything.friedliver.com/*" />
+    <content src="https://liftanything.friedliver.com/" />
     <platform name="android">
         <icon density="ldpi" src="res/android/icon/drawable-ldpi-icon.png" background="res/android/icon/adaptive-background-ldpi.png" foreground="res/android/icon/adaptive-foreground-ldpi.png" />
         <icon density="mdpi" src="res/android/icon/drawable-mdpi-icon.png" background="res/android/icon/adaptive-background-mdpi.png" foreground="res/android/icon/adaptive-foreground-mdpi.png" />
